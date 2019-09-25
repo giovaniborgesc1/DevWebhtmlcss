@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0;}
+body {background-color: rgb(235, 204, 118); 
+    font: 18px/1.4 arial, sans-serif; 
+    text-align: center;
+}
+hgroup > h1 {
+    font-size: 36px;
+    margin: 12px 0 12px 0;
+    
+}
+hgroup a {color: rgb(68, 71, 39); text-decoration: none;}
+h1 ~ h2{
+    font-size: 27px;
+    margin:  14px 0 14px 0;
+    color: rgb(181, 197, 32);
+}
+nav > ul { background-color: bisque ; margin-left: 50px;}
+nav > ul > li first-child > a {
+    color: rgb(146, 66, 66);
+    text-decoration: none;
+}
+nav > ul > li first-child > a:hover {
+    margin-left: 30px;
+    color: #555;
+}
+div {
+    text-align: left;
+    margin-left: 30px;
+    background-color: beige;
+    margin-top: 15px;
+}
